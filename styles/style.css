@@ -1,0 +1,25 @@
+.side-menu {
+    position: fixed; /* Menu stays in place regardless of other content */
+    z-index: 150; /* Give menu a high z value to force it to be on top */
+    background-color: darkblue;
+    height: 100vh;
+    width: 30vw;
+
+
+}
+.side-menu ul li .menu-item {
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+  }
+
+ul li {
+    color: white;
+    margin: 0;
+    padding: 20px;
+}
+
